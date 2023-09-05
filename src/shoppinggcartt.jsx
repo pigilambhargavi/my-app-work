@@ -102,4 +102,4 @@ function Shoppingcart(){
         </div>
     )
 }
-u0export default Shoppingcart;
+export default Shoppingcart;
