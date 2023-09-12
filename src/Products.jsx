@@ -42,7 +42,7 @@ function Products(){
             <ul className="d-flex flex-wrap">
             {
                 products.map((a,i)=>{
-                    return <div className="card shadow-lg p-3 rounded m-4 " style={{width: '14rem',backgroundColor:'lightpink'}}>
+                    return <div className="card shadow-lg p-3 rounded m-4 " style={{width: '14rem',backgroundColor:'skyblue'}}>
                     
                     <div className="card-body d-flex flex-column justify-content-between">
                         <img src={a.image} style={{height:'160px',width:'160px'}} alt="Card image cap"/>
