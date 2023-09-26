@@ -1,14 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {store} from './app/store';
+import {Provider} from "react-redux";
+function App(){
 
-function App() {
-  return (
-    <div className="App">
-      <h1>welcome</h1>
-
+  return(
+  <Provider store={store}>
+    <div className="mybox">
+      <h1>Welcome To Edupoly ReactJS Training</h1>
 
     </div>
-  );
-}
+    </Provider>
+    );
+    }
 
-export default App;
+
+  
+  export default App;
